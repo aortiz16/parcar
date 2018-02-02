@@ -7,9 +7,10 @@ import java.awt.Color;
  * Class CLASE MODELOS de tipo COCHE // that models objects of type "coche"
  * 
  * @Java MOOC team, UC3M
- * 
+ *  string estaba con minuscula en varias ocasiones
+ *  car acelerate estaba separado ==> car.acelerate
  * Correcion de errores -V3.0-
- * @3.0
+ * @3.0 
  */
 public class coche
 {
@@ -62,7 +63,7 @@ public class coche
      * @throws InterruptedException 
      */
     public void slowDown() throws InterruptedException{
-    	string c = new string("     *");
+    	String c = new String("     *");
     	for(int i=0; i<5; i++)
         {
         	System.out.print(c);
@@ -77,7 +78,7 @@ public class coche
      * @throws InterruptedException 
      */    
     public void moveDown() throws InterruptedException{
-    	string c = new string("\t\t\t\t  *"));
+    	String c = new String("\t\t\t\t  *"));
     	for(int i=0, i<5, i++)
         {
     		if(i!=4)
